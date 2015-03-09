@@ -23,7 +23,7 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 
-_UNIFYING_DRIVER = 'logitech-djreceiver'
+_UNIFYING_DRIVER = ('logitech-djreceiver', 'hid-generic')
 _GENERIC_DRIVER = ('hid-generic', 'generic-usb')
 
 
